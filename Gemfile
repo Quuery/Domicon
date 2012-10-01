@@ -18,7 +18,13 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'font-awesome-sass-rails'
+  gem 'compass-rails', '~> 1.0.3'
+  gem 'zurb-foundation'
+  gem 'bootstrap-sass'
 end
+
+# TODO: Add jammit gem.
 
 group :development, :test do
   gem 'rspec-rails'
@@ -29,6 +35,7 @@ group :development, :test do
 end
 
 gem 'jquery-rails'
+gem "slim-rails"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
