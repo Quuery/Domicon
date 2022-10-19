@@ -65,6 +65,7 @@ GEM
     factory_girl_rails (4.1.0)
       factory_girl (~> 4.1.0)
       railties (>= 3.0.0)
+    ffi (1.1.5)
     ffi (1.1.5-x86-mingw32)
     font-awesome-sass-rails (2.0.0.0)
       railties (>= 3.1.1)
@@ -86,13 +87,20 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.19)
+    mini_portile2 (2.8.0)
     modular-scale (1.0.2)
       compass (>= 0.11.5)
       sassy-math (>= 1.2)
     multi_json (1.3.6)
+    mysql2 (0.3.11)
     mysql2 (0.3.11-x86-mingw32)
-    nokogiri (1.5.5-x86-mingw32)
+    nokogiri (1.13.9)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    nokogiri (1.13.9-x86-mingw32)
+      racc (~> 1.4)
     polyglot (0.3.3)
+    racc (1.6.0)
     rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -175,6 +183,7 @@ GEM
       sass (>= 3.2.0)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
